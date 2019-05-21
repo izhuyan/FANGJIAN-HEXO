@@ -69,10 +69,10 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
   
-deploy:
-  type: git
-  repo: 
+##deploy:
+ ## type: git
+  ##repo: 
    ## github: https://github.com/izhuyan/izhuyan.github.io.git
-    coding: git@git.coding.net:izhuyan/izhuyan.git
-  branch: master
-  message: 2017.02更新博客。
+   ## coding: git@git.coding.net:izhuyan/izhuyan.git
+ ## branch: master
+  ##message: 2017.02更新博客。
