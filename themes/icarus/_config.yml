@@ -159,7 +159,7 @@ widgets:
         position: left
         # Links to be shown in the links widget
         links:
-            Hexo: 'https://hexo.io'
+            Hexo假的: 'https://hexo.io'
             PPOffice: 'https://github.com/ppoffice'
     -
         # Widget name
