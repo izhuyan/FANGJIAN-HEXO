@@ -30,9 +30,9 @@ navbar:
         About: /about
     # Navigation bar links to be shown on the right
     links:
-        Download on GitHub:
+        YouTube:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://www.youtube.com/channel/UCHjnQSn1yBEtkUZ3smrNW2A/about?view_as=subscriber'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -117,7 +117,7 @@ widgets:
         # Where should the widget be placed, left or right
         position: right
         # Author name to be shown in the profile widget
-        author: Your name
+        author: 朱焱
         # Title of the author to be shown in the profile widget
         author_title: BBQ
         # Author's current location to be shown in the profile widget
@@ -159,8 +159,8 @@ widgets:
         position: left
         # Links to be shown in the links widget
         links:
-            Hexo假的: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+            临时: 'https://hexo.io'
+            临时2: 'https://github.com/ppoffice'
     -
         # Widget name
         type: category
