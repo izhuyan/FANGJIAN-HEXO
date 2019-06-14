@@ -17,21 +17,30 @@ thumbnail: /gallery/thumbnails/desert.jpg
 ##### （YouTube可以直接观看，欢迎去我的频道点赞转发评论哦！[点此观看原视频](https://www.bilibili.com/video/av55355837/ "点此观看原视频")）
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PGepIYuQu7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 代码部分：
+### 懒人代码部分：
 让我们首先下载最新版本的[Pixi.js](https://www.pixijs.com/ "Pixi.js")并将其包含在页面中。
 
-```javascript
-	<script src = “pixi.min.js” > </ script>
+```
+javascript
+	<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>3d立体</title>
+</head>
+<body>
+    <script src="pixi.js"></script>
+	<script>
 
 	let app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight});
 	document.body.appendChild(app.view);
 
-	let img = new PIXI.Sprite.from("pikachu.jpg");
+	let img = new PIXI.Sprite.from("1.jpg");
 	img.width = window.innerWidth;
 	img.height = window.innerHeight;
 	app.stage.addChild(img);
 
-	depthMap = new PIXI.Sprite.from("pikachu-map.jpg");
+	depthMap = new PIXI.Sprite.from("2.jpg");
 	app.stage.addChild(depthMap);
         
 	displacementFilter = new PIXI.filters.DisplacementFilter(depthMap);
@@ -41,6 +50,10 @@ thumbnail: /gallery/thumbnails/desert.jpg
   displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) /20;
   displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) /20;
 };
+
+</script>
+</body>
+</html>
 
 ```
 
