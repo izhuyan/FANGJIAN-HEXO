@@ -21,7 +21,7 @@ thumbnail: /gallery/thumbnails/desert.jpg
 让我们首先下载最新版本的[Pixi.js](https://www.pixijs.com/ "Pixi.js")并将其包含在页面中。
 
 ```
-javascript
+
 	<!DOCTYPE html>
 <html>
 <head>
