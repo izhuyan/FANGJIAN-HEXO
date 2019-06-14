@@ -2,6 +2,9 @@
 title: PS&JavaScript教程创建动态3D照片
 ---
 在本教程中，我们将向您展示如何使用JavaScript和[Pixi.js](https://www.pixijs.com/ "Pixi.js") webGL库从图像创建3D照片的幻觉。让我们来看看！
+
+<!-- more -->
+
 # **这个概念**
 因此，为了将普通照片变成3D照片，我们需要使用深度图（或者有人会调用置换贴图或高度贴图）就像名称所说的那样，深度贴图是一个图像文件，用于显示每个像素的深度。
 # 教程视频
@@ -9,7 +12,7 @@ title: PS&JavaScript教程创建动态3D照片
 ##### （由于b站对外嵌视频支持不好建议[点此观看原视频](https://www.bilibili.com/video/av55355837/ "点此观看原视频")）
 <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=55355837&cid=96792753&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-###YouTube观看：
+### YouTube观看：
 ##### （YouTube可以直接观看，欢迎去我的频道点赞转发评论哦！[点此观看原视频](https://www.bilibili.com/video/av55355837/ "点此观看原视频")）
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PGepIYuQu7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
