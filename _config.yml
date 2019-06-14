@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: BBQ
-subtitle: 
-description: ヾ(≧O≦)〃
-author: BBQ
+title: 坊间设计
+subtitle: 一个用心做设计的博客
+description: 分享关于平面设计，Adobe Illustrator和Adobe Photoshop的想法，灵感和教程
+author: 朱焱
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.zhuyan.ren
+url: https://fangjian-design.club/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
