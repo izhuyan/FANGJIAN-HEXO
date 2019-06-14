@@ -1,5 +1,6 @@
 ---
 title: PS&JavaScript教程创建动态3D照片
+thumbnail: /gallery/thumbnails/desert.jpg
 ---
 在本教程中，我们将向您展示如何使用JavaScript和[Pixi.js](https://www.pixijs.com/ "Pixi.js") webGL库从图像创建3D照片的幻觉。让我们来看看！
 
